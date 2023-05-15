@@ -1,0 +1,4 @@
+
+interface Istudent {
+    void CalculateCGPA();
+}
