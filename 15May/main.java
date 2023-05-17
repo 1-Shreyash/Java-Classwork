@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
+// Create a function to take input from user 10 positive numbers. If the number entered is less than 0 throw Arithemetic eception. The exception should be handled in main() class. 
 public class main {
     static void checkInput(int a) throws IOException{
         if(a<0){
