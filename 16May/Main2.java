@@ -6,7 +6,7 @@ public class Main2 {
             Employee employee = new Employee("user123", "d3Y3vds@");
             System.out.println("Employee created successfully");
         } catch (InvalidPasswordException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("Error: " + e);
         }
     }
 }
