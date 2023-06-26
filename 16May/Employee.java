@@ -25,7 +25,7 @@ public class Employee {
                 flag1 = 1;
             }
             else if(arr2>='0' && arr2<='9'){
-
+                flag1 = 1;
             }
            }
         }
