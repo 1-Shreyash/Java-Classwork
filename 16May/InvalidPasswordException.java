@@ -1,5 +1,5 @@
 public class InvalidPasswordException extends Exception {
-    String detail;
+    private String detail;
     public InvalidPasswordException(String message) {
         //super(message);
         detail=message;
